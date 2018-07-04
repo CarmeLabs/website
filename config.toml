@@ -12,14 +12,14 @@ publishDir = "docs"
     url = "http://docs.carme.ai"
   [[menu.header]]
     weight = 3
-    name = "Blog"
+    name = "Tutorials"
     url = "/blog"
+#  [[menu.header]]
+#    weight = 4
+#    name = "Training"
+#    url = "/service"
   [[menu.header]]
     weight = 4
-    name = "Training"
-    url = "/service"
-  [[menu.header]]
-    weight = 5
     name = "Contact"
     url = "/contact"
 
@@ -37,7 +37,7 @@ publishDir = "docs"
     url = "#"
   [[menu.footer]]
     weight = 4
-    name = "Blog"
+    name = "Tutorials"
     url = "#"
   [[menu.footer]]
     weight = 5
@@ -68,8 +68,8 @@ publishDir = "docs"
 
   [params.blog]
     enable = true
-    title = "Get The Latest On What We're doing"
-    subtitle = "Catch up with us, anytime and anywhere"
+    title = "Tutorials: How to use the Carme package"
+    subtitle = "Learn how to launch a launch Jupyter using a container,  "
 
   [params.feature]
     enable = true
@@ -96,8 +96,8 @@ publishDir = "docs"
       button = "Send message"
     [params.contact.box]
       title = "Stop by for a visit"
-      address = "110 Eight Street Troy, NY"
+      address = "110 Eight Street, Troy, NY"
       email = "Email: info@carme.ai"
-      phone = "Phone: +88 01672 506 744"
+
     [params.contact.gmaps]
-      title = "We Also Count in Google Maps"
+      title = "Visit us at RPI"
