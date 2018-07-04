@@ -3,123 +3,123 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carme.ai/blog/migrate-from-jekyll/</loc>
+    <loc>https://carmelabs.github.io/blog/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carme.ai/blog/linked-post/</loc>
+    <loc>https://carmelabs.github.io/blog/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carme.ai/blog/go-is-for-lovers/</loc>
+    <loc>https://carmelabs.github.io/blog/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carme.ai/blog/hugo-is-for-lovers/</loc>
+    <loc>https://carmelabs.github.io/blog/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carme.ai/blog/creating-a-new-theme/</loc>
+    <loc>https://carmelabs.github.io/blog/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carme.ai/blog/</loc>
+    <loc>https://carmelabs.github.io/blog/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/</loc>
+    <loc>https://carmelabs.github.io/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/categories/</loc>
+    <loc>https://carmelabs.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/contact/</loc>
+    <loc>https://carmelabs.github.io/contact/</loc>
   </url>
   
   <url>
-    <loc>https://carme.ai/tags/go/</loc>
+    <loc>https://carmelabs.github.io/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/tags/golang/</loc>
+    <loc>https://carmelabs.github.io/tags/golang/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/tags/hugo/</loc>
+    <loc>https://carmelabs.github.io/tags/hugo/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/tags/ipsum/</loc>
+    <loc>https://carmelabs.github.io/tags/ipsum/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/categories/lorem/</loc>
+    <loc>https://carmelabs.github.io/categories/lorem/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/tags/programming/</loc>
+    <loc>https://carmelabs.github.io/tags/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/categories/programming/</loc>
+    <loc>https://carmelabs.github.io/categories/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/categories/pseudo/</loc>
+    <loc>https://carmelabs.github.io/categories/pseudo/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/service/</loc>
+    <loc>https://carmelabs.github.io/service/</loc>
   </url>
   
   <url>
-    <loc>https://carme.ai/categories/starting/</loc>
+    <loc>https://carmelabs.github.io/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/tags/</loc>
+    <loc>https://carmelabs.github.io/tags/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/tags/theme/</loc>
+    <loc>https://carmelabs.github.io/tags/theme/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/work/</loc>
+    <loc>https://carmelabs.github.io/work/</loc>
   </url>
   
 </urlset>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pseudo on Carme.ai</title>
-    <link>https://carme.ai/categories/pseudo/</link>
+    <link>https://carmelabs.github.io/categories/pseudo/</link>
     <description>Recent content in Pseudo on Carme.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Aug 2015 13:39:46 +0200</lastBuildDate>
     
-	<atom:link href="https://carme.ai/categories/pseudo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carmelabs.github.io/categories/pseudo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo is for lovers</title>
-      <link>https://carme.ai/blog/hugo-is-for-lovers/</link>
+      <link>https://carmelabs.github.io/blog/hugo-is-for-lovers/</link>
       <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
       
-      <guid>https://carme.ai/blog/hugo-is-for-lovers/</guid>
+      <guid>https://carmelabs.github.io/blog/hugo-is-for-lovers/</guid>
       <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at installing hugo

@@ -1,5 +1,5 @@
 title = "Carme.ai"
-baseURL = "https://carme.ai"
+baseURL = "https://carmelabs.github.io"
 languageCode = "en-us"
 theme = "airspace-hugo"
 publishDir = "docs"
