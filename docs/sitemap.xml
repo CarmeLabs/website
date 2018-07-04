@@ -3,123 +3,123 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carmelabs.github.io/blog/migrate-from-jekyll/</loc>
+    <loc>https://carmelabs.github.io/website/blog/migrate-from-jekyll/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/blog/linked-post/</loc>
+    <loc>https://carmelabs.github.io/website/blog/linked-post/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/blog/go-is-for-lovers/</loc>
+    <loc>https://carmelabs.github.io/website/blog/go-is-for-lovers/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/blog/hugo-is-for-lovers/</loc>
+    <loc>https://carmelabs.github.io/website/blog/hugo-is-for-lovers/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/blog/creating-a-new-theme/</loc>
+    <loc>https://carmelabs.github.io/website/blog/creating-a-new-theme/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/blog/</loc>
+    <loc>https://carmelabs.github.io/website/blog/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/</loc>
+    <loc>https://carmelabs.github.io/website/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/categories/</loc>
+    <loc>https://carmelabs.github.io/website/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/contact/</loc>
+    <loc>https://carmelabs.github.io/website/contact/</loc>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/tags/go/</loc>
+    <loc>https://carmelabs.github.io/website/tags/go/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/tags/golang/</loc>
+    <loc>https://carmelabs.github.io/website/tags/golang/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/tags/hugo/</loc>
+    <loc>https://carmelabs.github.io/website/tags/hugo/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/tags/ipsum/</loc>
+    <loc>https://carmelabs.github.io/website/tags/ipsum/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/categories/lorem/</loc>
+    <loc>https://carmelabs.github.io/website/categories/lorem/</loc>
     <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/tags/programming/</loc>
+    <loc>https://carmelabs.github.io/website/tags/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/categories/programming/</loc>
+    <loc>https://carmelabs.github.io/website/categories/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/categories/pseudo/</loc>
+    <loc>https://carmelabs.github.io/website/categories/pseudo/</loc>
     <lastmod>2015-08-03T13:39:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/service/</loc>
+    <loc>https://carmelabs.github.io/website/service/</loc>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/categories/starting/</loc>
+    <loc>https://carmelabs.github.io/website/categories/starting/</loc>
     <lastmod>2015-06-24T13:50:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/tags/</loc>
+    <loc>https://carmelabs.github.io/website/tags/</loc>
     <lastmod>2015-09-17T13:47:08+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/tags/theme/</loc>
+    <loc>https://carmelabs.github.io/website/tags/theme/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carmelabs.github.io/work/</loc>
+    <loc>https://carmelabs.github.io/website/work/</loc>
   </url>
   
 </urlset>
