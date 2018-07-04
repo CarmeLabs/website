@@ -62,7 +62,7 @@ publishDir = "docs"
 
   [params.wrapper]
     enable = true
-    title = "About Us"
+    title = "About Carme"
     italic = "The CarmeLabs teams is a set of academics & data hackers from RPI. "
     paragraph = "Find more about the CarmeLabs team."
 
