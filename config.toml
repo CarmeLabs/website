@@ -9,7 +9,7 @@ publishDir = "docs"
   [[menu.header]]
     weight = 2
     name = "Docs"
-    url = "https://docs.carme.ai"
+    url = "http://docs.carme.ai"
   [[menu.header]]
     weight = 3
     name = "Blog"
