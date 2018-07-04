@@ -2,6 +2,7 @@ title = "Carme.ai"
 baseURL = "https://carme.ai"
 languageCode = "en-us"
 theme = "airspace-hugo"
+publishDir = "docs"
 
 [menu]
 
