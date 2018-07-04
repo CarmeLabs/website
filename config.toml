@@ -58,7 +58,7 @@ publishDir = "docs"
   [params.slider]
     enable = true
     title = "The Framework for Data Artisans"
-    subtitle = "Container centric data science. <br/>"
+    subtitle = "Jupyter and Docker centric data science workflows. <br/>"
 
   [params.wrapper]
     enable = true
