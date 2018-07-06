@@ -1,45 +1,44 @@
 enable: true
-title: Our Services
+title: The Carme Framework
 subtitle: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+  Frameworks have long been the friend of the web developers, increasing productivity by easing processes of getting started, building, and deploying applications. Loosely modeled after Laravel, Carme is designed to help data scientists to create and deploy data applications.
 content:
-
-  - icon: ion-coffee
-    name: Branding
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-compass
-    name: Web Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-image
-    name: App Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-bug
-    name: Start Up
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-headphone
-    name: Logo Design
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
-  - icon: ion-leaf
-    name: Development
-    text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-
   - icon: ion-planet
-    name: Brand Identity
+    name: Jupyter
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Easily use Jupyter with Docker containers both locally and in the cloud.
 
-  - icon: ion-earth
-    name: Brand Identity
+  - icon: ion-cloud
+    name: Cloud Infrastructure
     text: >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+      Control cloud resources with helpers for GCP, Azure, or AWS.
+
+  - icon: ion-social-github
+    name: GitHub
+    text: >
+      Use basic git and GitHub functionality a part of any data science workflow.
+
+  - icon: ion-checkmark
+    name: Jobs
+    text: >
+      Easily create and scale complex jobs with Directed Acyclic Graphs (DAGS) and Airflow.
+
+  - icon: ion-android-arrow-forward
+    name: Models
+    text: >
+      Quickly implement and share Deep Learning models using shared packages.
+
+  - icon: ion-chatbox
+    name: Chatbots
+    text: >
+      Build chatbots that using preconfigure samples and deeplearning models.
+
+  - icon: ion-android-share
+    name: Packages
+    text: >
+      Easily share & leverage others code through an easy package system.
+
+  - icon: ion-code
+    name: Simulate Data
+    text: >
+      Easily simulate data to be used outside the enterprise or when working with consultants.

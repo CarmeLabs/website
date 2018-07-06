@@ -14,12 +14,12 @@ publishDir = "docs"
     weight = 3
     name = "Tutorials"
     url = "/blog"
-#  [[menu.header]]
-#    weight = 4
-#    name = "Training"
-#    url = "/service"
   [[menu.header]]
     weight = 4
+    name = "Github"
+    url = "https://github.com/CarmeLabs/carme"
+  [[menu.header]]
+    weight = 5
     name = "Contact"
     url = "/contact"
 
@@ -69,12 +69,12 @@ publishDir = "docs"
   [params.blog]
     enable = true
     title = "Tutorials: How to use the Carme package"
-    subtitle = "Learn how to launch a launch Jupyter using a container,  "
+    subtitle = "Learn how to launch Jupyter using a container with Carme.  "
 
   [params.feature]
     enable = true
-    title = "We believe in great ideas"
-    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    title = "Like using Carme?"
+    content = "Like the Carme repository on Github."
     [params.feature.button]
       caption = "View Works"
       url = "#"
@@ -87,7 +87,7 @@ publishDir = "docs"
   [params.contact]
     enable = true
     title = "Contact us. "
-    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    subtitle = "Stay in touch for latest developments."
     [params.contact.form]
       name = "Your name"
       email = "Your email"
@@ -98,6 +98,5 @@ publishDir = "docs"
       title = "Stop by for a visit"
       address = "110 Eight Street, Troy, NY"
       email = "Email: info@carme.ai"
-
     [params.contact.gmaps]
       title = "Visit us at RPI"

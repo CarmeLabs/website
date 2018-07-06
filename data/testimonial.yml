@@ -4,9 +4,9 @@ paragraph: >
   Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
 
 numbers:
-  - icon: ion-ios-chatboxes-outline
-    counter: 2000
-    text: Cups of Coffee
+  - icon: ion-android-share
+    counter: 10
+    text: Packages
   - icon: ion-ios-glasses-outline
     counter: 2000
     text: Cups of Coffee

@@ -6,15 +6,15 @@
     <description>Recent content in Starting on Carme.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jun 2015 13:50:46 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 04 Jul 2018 13:50:46 +0200</lastBuildDate>
     
 	<atom:link href="https://carme.ai/categories/starting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creating a new theme</title>
+      <title></title>
       <link>https://carme.ai/blog/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
+      <pubDate>Wed, 04 Jul 2018 13:50:46 +0200</pubDate>
       
       <guid>https://carme.ai/blog/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
