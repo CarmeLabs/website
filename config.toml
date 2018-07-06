@@ -73,16 +73,16 @@ publishDir = "docs"
 
   [params.feature]
     enable = true
-    title = "Like using Carme?"
-    content = "Like the Carme repository on Github."
+    title = "Like using Jupyter?"
+    content = "Carme helps you to use Jupter. Just like you use the jupyter notebook and jupyter lab commands to launch jupyter on your pc, use carme jupyter and carme lab to launch Jupyter in a container. Containerizing jupyter makes it easier to share and scale your analyses. "
     [params.feature.button]
-      caption = "View Works"
-      url = "#"
+      caption = "View Documentation"
+      url = "http://docs.carme.ai"
 
   [params.call]
     enable = true
-    title = "We design delightful digital experiences."
-    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+    title = "Containers increase reproducablity and scalablity, and Carme helps data scientists to use containers."
+    paragraph = "Working with containers allows your infrastructure to become code [this is often referred to as  or infrastructure as code (IAC)]. This ensures that others will be able to reproduce your work, and the Carme package system makes sharing your work a snap.  Containers are also useful when you want to scale an analysis, perhaps moving from your local machine to a GPU in the cloud or from a single GPU server to a Kubernetes cluster for a classroom Jupyterhub instance.  "
 
   [params.contact]
     enable = true
@@ -99,4 +99,4 @@ publishDir = "docs"
       address = "110 Eight Street, Troy, NY"
       email = "Email: info@carme.ai"
     [params.contact.gmaps]
-      title = "Visit us at RPI"
+      title = "Visit us in Troy, NY"
