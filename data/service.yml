@@ -19,7 +19,7 @@ content:
       Use basic git and GitHub functionality a part of any data science workflow.
 
   - icon: ion-checkmark
-    name: Jobs
+    name: Jobs (Soon)
     text: >
       Easily create and scale complex jobs with Directed Acyclic Graphs (DAGS) and Airflow.
 
@@ -29,7 +29,7 @@ content:
       Quickly implement and share Deep Learning models using shared packages.
 
   - icon: ion-chatbox
-    name: Chatbots
+    name: Chatbots (Soon)
     text: >
       Build chatbots that using preconfigure samples and deeplearning models.
 
@@ -39,6 +39,6 @@ content:
       Easily share & leverage others code through an easy package system.
 
   - icon: ion-code
-    name: Simulate Data
+    name: Simulate Data (Soon)
     text: >
       Easily simulate data to be used outside the enterprise or when working with consultants.
