@@ -3,6 +3,7 @@ baseURL = "https://carme.ai/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 publishDir = "docs"
+googleAnalytics = "UA-32817743-4"
 
 [menu]
 
