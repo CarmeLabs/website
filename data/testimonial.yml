@@ -1,40 +1,40 @@
 enable: true
-title: Fun Facts About Us
+title: Like what you see?  Help spread the word by liking us on Github/Twitter, help build a package, or help with the the Carme toolkit.
 paragraph: >
-  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+  Right now we are developing targeted solutions for data science communities as we build out the Carme command line interface, documentation, and tutorials. Have a data science problem you think that CarmeLabs might be able to solve? Let us know!
 
 numbers:
   - icon: ion-android-share
     counter: 10
     text: Packages
-  - icon: ion-ios-glasses-outline
-    counter: 2000
-    text: Cups of Coffee
-  - icon: ion-ios-compose-outline
-    counter: 2000
-    text: Cups of Coffee
-  - icon: ion-ios-timer-outline
-    counter: 2000
-    text: Cups of Coffee
+  - icon: ion-ios-people
+    counter: 3
+    text: Developers
+  - icon: ion-cloud
+    counter: 2
+    text: Cloud Providers
+  - icon: ion-thumbsup
+    counter: 10
+    text: GitHub Likes
 
-people:
-  - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
-  - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
-  - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
-  - text: >
-      This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
-    image: img/item-img1.jpg
-    name: Rose Ray
-    role: CEO-Themefisher
+# people:
+#   - text: >
+#       This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
+#     image: img/item-img1.jpg
+#     name: Rose Ray
+#     role: CEO-Themefisher
+#   - text: >
+#       This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
+#     image: img/item-img1.jpg
+#     name: Rose Ray
+#     role: CEO-Themefisher
+#   - text: >
+#       This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
+#     image: img/item-img1.jpg
+#     name: Rose Ray
+#     role: CEO-Themefisher
+#   - text: >
+#       This Company created an e-commerce site with the tools to make our business a success, with innovative ideas we feel that our site has unique elements that make us stand out from the crowd.
+#     image: img/item-img1.jpg
+#     name: Rose Ray
+#     role: CEO-Themefisher
