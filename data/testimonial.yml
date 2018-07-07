@@ -14,8 +14,8 @@ numbers:
     counter: 2
     text: Cloud Providers
   - icon: ion-thumbsup
-    counter: 10
-    text: GitHub Likes
+    counter: 3
+    text: GitHub Stars
 
 people:
   - text: >

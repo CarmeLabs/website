@@ -17,12 +17,12 @@ googleAnalytics = "UA-32817743-4"
     url = "/blog"
   [[menu.header]]
     weight = 4
-    name = "Github"
+    name = "Star on Github"
     url = "https://github.com/CarmeLabs/carme"
-  [[menu.header]]
-    weight = 5
-    name = "Contact"
-    url = "/contact"
+  #[[menu.header]]
+  #  weight = 5
+  #  name = "Contact"
+  #  url = "/contact"
 
   [[menu.footer]]
     weight = 1
