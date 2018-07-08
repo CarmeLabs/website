@@ -10,7 +10,7 @@ googleAnalytics = "UA-32817743-4"
   [[menu.header]]
     weight = 2
     name = "Docs"
-    url = "http://docs.carme.ai"
+    url = "https://docs.carme.ai"
   [[menu.header]]
     weight = 3
     name = "Tutorials"
