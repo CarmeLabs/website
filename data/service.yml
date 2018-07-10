@@ -1,7 +1,7 @@
 enable: true
 title: The Carme Framework
 subtitle: >
-  Frameworks have long been the friend of the web developers, increasing productivity by easing processes of getting started, building, and deploying applications. Loosely modeled after Laravel, Carme is designed to help data scientists to create and deploy data applications.
+  Here are just some of the features of Carme. Check out the docs and tutorials for more.
 content:
   - icon: ion-planet
     name: Jupyter
