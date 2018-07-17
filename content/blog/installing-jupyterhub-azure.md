@@ -11,7 +11,8 @@ This is a short tutorial on installing Jupyterhub on Azure using the Cloud Shell
 
 You must first log onto the Azure web portal and have an active subscription. Click on the button below to launch the cloud shell.
 
-<a style="cursor:pointer" onclick='javascript:window.open("https://shell.azure.com", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,menubar=no,location=no,status=no")'><image src="https://shell.azure.com/images/launchcloudshell.png" /></a>
+
+<a style="cursor:pointer" onclick='javascript:window.open("https://shell.azure.com", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,menubar=no,location=no,status=no")'><image src="/img/clshell.png" /></a>
 
 We will start by installing Carme on the Azure Shell.
 
@@ -55,13 +56,12 @@ The next thing that we are going to do is to create a new Carme project based on
 
 This will create the carme project:
 ```
-carme new mycluster
+carme new mycluster --package az-z2jh
 ```
 
 Now change to the Carme project directory and look at the directory structure:
 ```
 cd mycluster
-carme package install az-z2jh
 ls
 ```
 

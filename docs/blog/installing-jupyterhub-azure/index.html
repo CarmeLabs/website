@@ -135,7 +135,7 @@ ga('send', 'pageview');
 
 <p>You must first log onto the Azure web portal and have an active subscription. Click on the button below to launch the cloud shell.</p>
 
-<p><a style="cursor:pointer" onclick='javascript:window.open("https://shell.azure.com", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,menubar=no,location=no,status=no")'><image src="https://shell.azure.com/images/launchcloudshell.png" /></a></p>
+<p><a style="cursor:pointer" onclick='javascript:window.open("https://shell.azure.com", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,menubar=no,location=no,status=no")'><image src="/img/clshell.png" /></a></p>
 
 <p>We will start by installing Carme on the Azure Shell.</p>
 
@@ -178,13 +178,12 @@ Commands:
 
 <p>This will create the carme project:</p>
 
-<pre><code>carme new mycluster
+<pre><code>carme new mycluster --package az-z2jh
 </code></pre>
 
 <p>Now change to the Carme project directory and look at the directory structure:</p>
 
 <pre><code>cd mycluster
-carme package install az-z2jh
 ls
 </code></pre>
 

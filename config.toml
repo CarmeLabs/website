@@ -70,7 +70,7 @@ googleAnalytics = "UA-32817743-4"
   [params.blog]
     enable = true
     title = "Tutorials: How to use the Carme package"
-    subtitle = "Learn how to launch Jupyter using a container with Carme.  "
+    subtitle = ""
 
   [params.feature]
     enable = true
