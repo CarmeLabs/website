@@ -1,11 +1,9 @@
 +++
-title = ""
+title = "Creating Jupyterhub on the Azure Cloud Platform using the Azure Cloud Shell"
 date = "2018-07-16T13:50:46+02:00"
 tags = ["jupyterhub", "azure"]
 categories = ["jupyterhub"]
 +++
-
-# Creating Jupyterhub on the Azure Cloud Platform using the Azure Cloud Shell.
 
 This is a short tutorial on installing Jupyterhub on Azure using the Cloud Shell and the Carme package. This is convenient as you don't have to install anything (Azure CLI/Helm) locally.
 
