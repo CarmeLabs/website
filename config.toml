@@ -69,7 +69,7 @@ googleAnalytics = "UA-32817743-4"
 
   [params.blog]
     enable = true
-    title = "Tutorials: How to use the Carme package"
+    title = "Tutorials: How to use Carme"
     subtitle = ""
 
   [params.feature]
