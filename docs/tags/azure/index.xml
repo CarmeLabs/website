@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Carme.ai</title>
-    <link>https://carme.ai/</link>
-    <description>Recent content on Carme.ai</description>
+    <title>Azure on Carme.ai</title>
+    <link>https://carme.ai/tags/azure/</link>
+    <description>Recent content in Azure on Carme.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Jul 2018 13:50:46 +0200</lastBuildDate>
     
-	<atom:link href="https://carme.ai/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://carme.ai/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,33 +21,6 @@
 You must first log onto the Azure web portal and have an active subscription. Click on the button below to launch the cloud shell.
 
 We will start by installing Carme on the Azure Shell.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://carme.ai/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://carme.ai/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Service</title>
-      <link>https://carme.ai/service/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://carme.ai/service/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Work</title>
-      <link>https://carme.ai/work/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://carme.ai/work/</guid>
-      <description></description>
     </item>
     
   </channel>

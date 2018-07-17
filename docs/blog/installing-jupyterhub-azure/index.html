@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-32817743-4', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+<title></title>
+
+<meta name="generator" content="Hugo 0.37.1" />
+
+
+<link rel="stylesheet" href="https://carme.ai/css/owl.carousel.css" />
+<link rel="stylesheet" href="https://carme.ai/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://carme.ai/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://carme.ai/css/airspace-local-fonts.css" />
+<link rel="stylesheet" href="https://carme.ai/css/airspace.css" />
+<link rel="stylesheet" href="https://carme.ai/css/style.css" />
+<link rel="stylesheet" href="https://carme.ai/css/ionicons.min.css" />
+<link rel="stylesheet" href="https://carme.ai/css/animate.css" />
+<link rel="stylesheet" href="https://carme.ai/css/responsive.css" />
+<link rel="stylesheet" href="https://carme.ai/css/syntax.css" />
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="https://carme.ai/js/bootstrap.min.js"></script>
+<script src="https://carme.ai/js/owl.carousel.min.js"></script>
+<script src="https://carme.ai/js/plugins.js"></script>
+<script src="https://carme.ai/js/min/waypoints.min.js"></script>
+<script src="https://carme.ai/js/jquery.counterup.js"></script>
+
+
+<script src="https://carme.ai/js/main.js"></script>
+
+
+
+</head>
+<body>
+
+	
+<header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://carme.ai/">
+              <img src="https://carme.ai/img/logo.png" alt="Carme.ai Logo">
+            </a>
+          </div>
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://carme.ai/">Home</a></li>
+              
+                <li><a href="https://docs.carme.ai/">Docs</a></li>
+              
+                <li><a href="/blog/">Tutorials</a></li>
+              
+                <li><a href="https://github.com/CarmeLabs/carme/">Star on Github</a></li>
+              
+                <li><a href="/contact/">Get the Paper</a></li>
+              
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+	<div class="post">
+	  
+	  <section id="intro" style="border: 1px dotted #ddd;">
+	    <div class="container">
+	      <div class="row">
+	        <div>
+	          <div class="block">
+	            <h1></h1>
+	            <div class="post-info-wrapper">
+	              <p class="italic">By <span class="bold"></span> on <span class="bold">6 July 2018</span></p>
+	            </div>
+	            <hr />
+	            <p>
+
+<h1 id="creating-jupyterhub-on-the-azure-cloud-platform-using-the-azure-cloud-shell">Creating Jupyterhub on the Azure Cloud Platform using the Azure Cloud Shell.</h1>
+
+<p>This is a short tutorial on installing Jupyterhub on Azure using the Cloud Shell and the Carme package. This is convenient as you don&rsquo;t have to install anything (Azure CLI/Helm) locally.</p>
+
+<p>You must first log onto the Azure web portal and have an active subscription. Click on the button below to launch the cloud shell.</p>
+
+<p><a href="https://shell.azure.com"><img src="https://shell.azure.com/images/launchcloudshell.png" alt="Launch Cloud Shell" title="Launch Cloud Shell" /></a></p>
+
+<p>We will start by installing Carme on the Azure Shell.</p>
+
+<pre><code>wget https://raw.githubusercontent.com/CarmeLabs/carme/master/scripts/get/get_carme.sh
+source get_carme.sh
+</code></pre>
+
+<p>This will activate the virtual environment with Carme installed. If in the future you log in again this will not be installed but not active.  To activate the environment, just use this easy script.</p>
+
+<pre><code>source activate.sh
+</code></pre>
+
+<p>To verify that Carme is installed and working type <code>carme --help</code>. This will give an overview of the carme package.</p>
+
+<pre><code>Usage: carme [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  build     Build project docker images.
+  cleanup   Delete and remove all images.
+  cmd       Runs commands from the commands folder.
+  convert   Launch Jupyter Notebook (using Docker).
+  git       Initializes git and performs initial...
+  lab       Launch Jupyter Notebook (using Docker).
+  new       Creates a new carme project in project_dir or...
+  notebook  Launch Jupyter Notebook (using Docker).
+  package   Manage packages on the project.
+  save      A simler alias to git commit and push.
+  start     Launch all installed applications.
+  stop      Stop (and optionally remove, --remove) all...
+
+</code></pre>
+
+<h2 id="create-your-first-carme-project">Create Your First Carme Project</h2>
+
+<p>The next thing that we are going to do is to create a new Carme project based on the <code>az-z2jh</code> package. The <code>az-z2jh</code> project includes the additional packages for creating a Kubernetes cluster (<code>az-cluster</code>), installing JupyterHub (<code>jupyterhub</code>), and customizing the singleuser container (&lsquo;jupyter-cpu&rsquo;). You can find the documentation for the <a href="https://docs.carme.ai/packages/az-z2jh.html">az-z2jh project here</a>. The az-z2jh package is based on the <a href="https://zero-to-jupyterhub.readthedocs.io/en/latest/">Zero to JupyterHub project</a>, which has extensive documentation on launching JupyterHub on a variety of cloud platforms. Carme just makes it a bit easier.</p>
+
+<p>This will create the carme project:</p>
+
+<pre><code>carme new mycluster
+</code></pre>
+
+<p>Now change to the Carme project directory and look at the directory structure:</p>
+
+<pre><code>cd mycluster
+carme package install az-z2jh
+ls
+</code></pre>
+
+<p>The default installation includes some scaffolded commands and images.  We won&rsquo;t be using all of it here.</p>
+
+<h2 id="creating-the-kubernetes-cluster">Creating the Kubernetes Cluster</h2>
+
+<h3 id="verifying-cluster-configuration-settings">Verifying Cluster Configuration Settings</h3>
+
+<p>Before we can launch the cluster, let&rsquo;s go ahead and look at the configuration associated with the cluster. The values here are consistent with the <a href="https://zero-to-jupyterhub.readthedocs.io/en/latest/">Zero to Jupyterhub</a> documentation.</p>
+
+<p>The <code>--yes</code> just doesn&rsquo;t ask for confirmation before running the command.</p>
+
+<pre><code>carme cmd az-cluster show_config --yes
+</code></pre>
+
+<h3 id="lauch-the-cluster">Lauch the Cluster</h3>
+
+<p>Carme includes ways of templating bash commands so that the required commands are combined where necessary with the values for the config file.  This makes it easy to interatively enter a number of different commands.</p>
+
+<pre><code>carme cmd az-cluster create_all
+</code></pre>
+
+<p>This will ask you to confirm a number of commands used to launch the Cluster.  Press <code>y</code> to confirm each one.</p>
+
+<p>The last command will install the cluster. This could take you up to 10 minutes to launch.</p>
+
+<h3 id="install-helm">Install Helm</h3>
+
+<p>The following command will obtain the associated configuration for the Kubernetes cluster, install helm, and then secure helm.  More details on all of the steps can be found on the [Zero to Jupyterhub website]().</p>
+
+<pre><code>carme cmd az-cluster install_helm
+</code></pre>
+
+<h3 id="verify-your-cluster">Verify your Cluster</h3>
+
+<p>The <code>kubectl</code> command is the native way of controlling your cluster. Let&rsquo;s go ahead and verify that this works. The get node command will list out all of the servers and the kubernetes versions.</p>
+
+<pre><code>kubectl get node
+</code></pre>
+
+<p>Helm version will show that helm installed both locally and on the cluster.  The versions also need to be the same.</p>
+
+<pre><code>helm version
+</code></pre>
+
+<h2 id="install-jupyterhub">Install JupyterHub</h2>
+
+<p>The JupyterHub installation process involves a similar process to the creation of the cluster. Let&rsquo;s start by verifying the configuration</p>
+
+<h3 id="verifying-jupyterhub-configuration-settings">Verifying JupyterHub Configuration Settings</h3>
+
+<p>Before we can install Jupyterhub, let&rsquo;s go ahead and look at the configuration associated with the cluster. The values here are consistent with the <a href="https://zero-to-jupyterhub.readthedocs.io/en/latest/setup-helm.html">Zero to Jupyterhub Helm documentation</a> documentation.</p>
+
+<p>The <code>--yes</code> just doesn&rsquo;t ask for confirmation before running the command.</p>
+
+<pre><code>carme cmd jupyterhub show_config --yes
+</code></pre>
+
+<p>JupyterHub requires us to generate some configuration.</p>
+
+<pre><code>carme cmd jupyterhub install_all
+</code></pre>
+</p>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+	</div>
+	<p class="center-text" style="padding: 30px;">
+	  <a href="https://carme.ai//blog">Back to blog</a>
+	</p>
+
+	
+		
+
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>Containers increase reproducablity and scalablity, and Carme helps data scientists to use containers.</h2>
+          <p>Working with containers allows your infrastructure to become code [this is often referred to as  or infrastructure as code (IAC)]. This ensures that others will be able to reproduce your work, and the Carme package system makes sharing your work a snap.  Containers are also useful when you want to scale an analysis, perhaps moving from your local machine to a GPU in the cloud or from a single GPU server to a Kubernetes cluster for a classroom Jupyterhub instance.  </p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+	
+
+	
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="footer-manu">
+          <ul>
+            
+            <li><a href="#">About us</a></li>
+            
+            <li><a href="#">Contact us</a></li>
+            
+            <li><a href="#">How it works</a></li>
+            
+            <li><a href="#">Tutorials</a></li>
+            
+            <li><a href="#">Terms</a></li>
+            
+          </ul>
+        </div>
+        <p>Copyright &copy; Design &amp; Developed by Themefisher. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

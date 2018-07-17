@@ -6,19 +6,21 @@
     <description>Recent content in Blogs on Carme.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Jul 2018 13:50:46 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 16 Jul 2018 13:50:46 +0200</lastBuildDate>
     
 	<atom:link href="https://carme.ai/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://carme.ai/blog/creating-a-new-theme/</link>
-      <pubDate>Wed, 04 Jul 2018 13:50:46 +0200</pubDate>
+      <link>https://carme.ai/blog/installing-jupyterhub-azure/</link>
+      <pubDate>Mon, 16 Jul 2018 13:50:46 +0200</pubDate>
       
-      <guid>https://carme.ai/blog/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://carme.ai/blog/installing-jupyterhub-azure/</guid>
+      <description>Creating Jupyterhub on the Azure Cloud Platform using the Azure Cloud Shell. This is a short tutorial on installing Jupyterhub on Azure using the Cloud Shell and the Carme package. This is convenient as you don&amp;rsquo;t have to install anything (Azure CLI/Helm) locally.
+You must first log onto the Azure web portal and have an active subscription. Click on the button below to launch the cloud shell.
+
+We will start by installing Carme on the Azure Shell.</description>
     </item>
     
   </channel>
