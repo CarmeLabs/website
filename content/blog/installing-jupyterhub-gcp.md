@@ -3,13 +3,14 @@ title = "Creating Jupyterhub on Google Cloud Platform (GCP)"
 date = "2018-07-15T13:51:46+02:00"
 tags = ["jupyterhub", "gcp"]
 categories = ["jupyterhub"]
+draft = true
 +++
 
 This is a short tutorial on installing Jupyterhub on using the Cloud Shell and the Carme package. This is convenient as you don't have to install anything (Google CLI/Helm) locally.
 
 You must first log onto the GCP web portal and have an active subscription. Click on the button below to launch the cloud shell.
 
-<a style="cursor:pointer" onclick='javascript:window.open("https://console.cloud.google.com/cloudshell/", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,menubar=no,location=no,status=no")'><image src="http://gstatic.com/cloudssh/images/open-btn.svg" /></a>
+
 
 We will start by installing Carme on the Azure Shell.
 
