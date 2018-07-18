@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Creating Jupyterhub on the Azure Cloud Platform using the Azure Cloud Shell</title>
+      <title>Creating Jupyterhub on the Azure Cloud Platform</title>
       <link>https://carme.ai/blog/installing-jupyterhub-azure/</link>
       <pubDate>Mon, 16 Jul 2018 13:50:46 +0200</pubDate>
       
@@ -22,6 +22,19 @@ You must first log onto the Azure web portal and have an active subscription. Cl
 
 We will start by installing Carme on the Azure Shell.
 wget https://raw.githubusercontent.com/CarmeLabs/carme/master/scripts/get/get_carme.sh source get_carme.</description>
+    </item>
+    
+    <item>
+      <title>Creating Jupyterhub on Google Cloud Platform (GCP)</title>
+      <link>https://carme.ai/blog/installing-jupyterhub-gcp/</link>
+      <pubDate>Sun, 15 Jul 2018 13:51:46 +0200</pubDate>
+      
+      <guid>https://carme.ai/blog/installing-jupyterhub-gcp/</guid>
+      <description>This is a short tutorial on installing Jupyterhub on using the Cloud Shell and the Carme package. This is convenient as you don&amp;rsquo;t have to install anything (Google CLI/Helm) locally.
+You must first log onto the GCP web portal and have an active subscription. Click on the button below to launch the cloud shell.
+
+We will start by installing Carme on the Azure Shell.
+wget https://raw.githubusercontent.com/CarmeLabs/carme/master/scripts/get/get_carme.sh source get_carme.sh  This will activate the virtual environment with Carme installed.</description>
     </item>
     
   </channel>

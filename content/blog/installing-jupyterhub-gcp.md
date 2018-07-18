@@ -1,16 +1,15 @@
 +++
-title = "Creating Jupyterhub on the Azure Cloud Platform"
-date = "2018-07-16T13:50:46+02:00"
-tags = ["jupyterhub", "azure"]
+title = "Creating Jupyterhub on Google Cloud Platform (GCP)"
+date = "2018-07-15T13:51:46+02:00"
+tags = ["jupyterhub", "gcp"]
 categories = ["jupyterhub"]
 +++
 
-This is a short tutorial on installing Jupyterhub on Azure using the Cloud Shell and the Carme package. This is convenient as you don't have to install anything (Azure CLI/Helm) locally.
+This is a short tutorial on installing Jupyterhub on using the Cloud Shell and the Carme package. This is convenient as you don't have to install anything (Google CLI/Helm) locally.
 
-You must first log onto the Azure web portal and have an active subscription. Click on the button below to launch the cloud shell.
+You must first log onto the GCP web portal and have an active subscription. Click on the button below to launch the cloud shell.
 
-
-<a style="cursor:pointer" onclick='javascript:window.open("https://shell.azure.com", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,menubar=no,location=no,status=no")'><image src="/img/clshell.png" /></a>
+<a style="cursor:pointer" onclick='javascript:window.open("https://console.cloud.google.com/cloudshell/", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,menubar=no,location=no,status=no")'><image src="http://gstatic.com/cloudssh/images/open-btn.svg" /></a>
 
 We will start by installing Carme on the Azure Shell.
 
@@ -26,12 +25,11 @@ source activate.sh
 
 To verify that Carme is installed and working type `carme --help`. This will give an overview of the carme package.
 
-
+```
 Usage: carme [OPTIONS] COMMAND [ARGS]...
 
 Options:
   --version  Show the version and exit.
-
   --help     Show this message and exit.
 
 Commands:
@@ -48,13 +46,14 @@ Commands:
   start     Launch all installed applications.
   stop      Stop (and optionally remove, --remove) all...
 
+```
 
 ## Create Your First Carme Project
 The next thing that we are going to do is to create a new Carme project based on the `az-z2jh` package. The `az-z2jh` project includes the additional packages for creating a Kubernetes cluster (`az-cluster`), installing JupyterHub (`jupyterhub`), and customizing the singleuser container ('jupyter-cpu'). You can find the documentation for the [az-z2jh project here](https://docs.carme.ai/packages/az-z2jh.html). The az-z2jh package is based on the [Zero to JupyterHub project](https://zero-to-jupyterhub.readthedocs.io/en/latest/), which has extensive documentation on launching JupyterHub on a variety of cloud platforms. Carme just makes it a bit easier.
 
 This will create the carme project:
 ```
-carme new mycluster --package az-z2jh
+carme new mycluster --package gcp-z2jh
 ```
 
 Now change to the Carme project directory and look at the directory structure:
@@ -72,14 +71,14 @@ Before we can launch the cluster, let's go ahead and look at the configuration a
 The `--yes` just doesn't ask for confirmation before running the command.
 
 ```
-carme cmd az-cluster show_config --yes
+carme cmd gcp-cluster show_config --yes
 ```
 
 ### Lauch the Cluster
 Carme includes ways of templating bash commands so that the required commands are combined where necessary with the values for the config file.  This makes it easy to interactively enter a number of different commands.
 
 ```
-carme cmd az-cluster create_all
+carme cmd gcp-cluster create_all
 ```
 
 This will ask you to confirm a number of commands used to launch the Cluster.  Press `y` to confirm each one.
@@ -90,7 +89,7 @@ The last command will install the cluster. This could take you up to 10 minutes 
 The following command will obtain the associated configuration for the Kubernetes cluster, install helm, and then secure helm.  More details on all of the steps can be found on the [Zero to Jupyterhub website]().
 
 ```
-carme cmd az-cluster install_helm
+carme cmd gcp-cluster install_helm
 ```
 
 ### Verify your Cluster

@@ -39,7 +39,7 @@ ga('send', 'pageview');
 <meta name="theme-color" content="#ffffff">
 
 
-<title>Creating Jupyterhub on the Azure Cloud Platform</title>
+<title>Creating Jupyterhub on Google Cloud Platform (GCP)</title>
 
 <meta name="generator" content="Hugo 0.37.1" />
 
@@ -122,18 +122,18 @@ ga('send', 'pageview');
 	      <div class="row">
 	        <div>
 	          <div class="block">
-	            <h1>Creating Jupyterhub on the Azure Cloud Platform</h1>
+	            <h1>Creating Jupyterhub on Google Cloud Platform (GCP)</h1>
 	            <div class="post-info-wrapper">
 	              <p class="italic">By <span class="bold"></span> on <span class="bold">6 July 2018</span></p>
 	            </div>
 	            <hr />
 	            <p>
 
-<p>This is a short tutorial on installing Jupyterhub on Azure using the Cloud Shell and the Carme package. This is convenient as you don&rsquo;t have to install anything (Azure CLI/Helm) locally.</p>
+<p>This is a short tutorial on installing Jupyterhub on using the Cloud Shell and the Carme package. This is convenient as you don&rsquo;t have to install anything (Google CLI/Helm) locally.</p>
 
-<p>You must first log onto the Azure web portal and have an active subscription. Click on the button below to launch the cloud shell.</p>
+<p>You must first log onto the GCP web portal and have an active subscription. Click on the button below to launch the cloud shell.</p>
 
-<p><a style="cursor:pointer" onclick='javascript:window.open("https://shell.azure.com", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,menubar=no,location=no,status=no")'><image src="/img/clshell.png" /></a></p>
+<p><a style="cursor:pointer" onclick='javascript:window.open("https://console.cloud.google.com/cloudshell/", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,menubar=no,location=no,status=no")'><image src="http://gstatic.com/cloudssh/images/open-btn.svg" /></a></p>
 
 <p>We will start by installing Carme on the Azure Shell.</p>
 
@@ -148,26 +148,27 @@ source get_carme.sh
 
 <p>To verify that Carme is installed and working type <code>carme --help</code>. This will give an overview of the carme package.</p>
 
-<p>Usage: carme [OPTIONS] COMMAND [ARGS]&hellip;</p>
+<pre><code>Usage: carme [OPTIONS] COMMAND [ARGS]...
 
-<p>Options:
-  &ndash;version  Show the version and exit.</p>
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
 
-<p>&ndash;help     Show this message and exit.</p>
-
-<p>Commands:
+Commands:
   build     Build project docker images.
   cleanup   Delete and remove all images.
   cmd       Runs commands from the commands folder.
   convert   Launch Jupyter Notebook (using Docker).
-  git       Initializes git and performs initial&hellip;
+  git       Initializes git and performs initial...
   lab       Launch Jupyter Notebook (using Docker).
-  new       Creates a new carme project in project_dir or&hellip;
+  new       Creates a new carme project in project_dir or...
   notebook  Launch Jupyter Notebook (using Docker).
   package   Manage packages on the project.
   save      A simler alias to git commit and push.
   start     Launch all installed applications.
-  stop      Stop (and optionally remove, &ndash;remove) all&hellip;</p>
+  stop      Stop (and optionally remove, --remove) all...
+
+</code></pre>
 
 <h2 id="create-your-first-carme-project">Create Your First Carme Project</h2>
 
@@ -175,7 +176,7 @@ source get_carme.sh
 
 <p>This will create the carme project:</p>
 
-<pre><code>carme new mycluster --package az-z2jh
+<pre><code>carme new mycluster --package gcp-z2jh
 </code></pre>
 
 <p>Now change to the Carme project directory and look at the directory structure:</p>
@@ -194,14 +195,14 @@ ls
 
 <p>The <code>--yes</code> just doesn&rsquo;t ask for confirmation before running the command.</p>
 
-<pre><code>carme cmd az-cluster show_config --yes
+<pre><code>carme cmd gcp-cluster show_config --yes
 </code></pre>
 
 <h3 id="lauch-the-cluster">Lauch the Cluster</h3>
 
 <p>Carme includes ways of templating bash commands so that the required commands are combined where necessary with the values for the config file.  This makes it easy to interactively enter a number of different commands.</p>
 
-<pre><code>carme cmd az-cluster create_all
+<pre><code>carme cmd gcp-cluster create_all
 </code></pre>
 
 <p>This will ask you to confirm a number of commands used to launch the Cluster.  Press <code>y</code> to confirm each one.</p>
@@ -212,7 +213,7 @@ ls
 
 <p>The following command will obtain the associated configuration for the Kubernetes cluster, install helm, and then secure helm.  More details on all of the steps can be found on the [Zero to Jupyterhub website]().</p>
 
-<pre><code>carme cmd az-cluster install_helm
+<pre><code>carme cmd gcp-cluster install_helm
 </code></pre>
 
 <h3 id="verify-your-cluster">Verify your Cluster</h3>
