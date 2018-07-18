@@ -1,5 +1,5 @@
 +++
-title = "Creating Jupyterhub on the Azure Cloud Platform"
+title = "Creating Jupyterhub on the Azure with Cloud Shell"
 date = "2018-07-16T13:50:46+02:00"
 tags = ["jupyterhub", "azure"]
 categories = ["jupyterhub"]
@@ -116,6 +116,8 @@ The `--yes` just doesn't ask for confirmation before running the command.
 ```
 carme cmd jupyterhub show_config --yes
 ```
+
+#WARNING - THIS PART OF THE TUTORIAL IS CURRENTLY NOT WORKING!
 
 JupyterHub requires us to generate some configuration.
 

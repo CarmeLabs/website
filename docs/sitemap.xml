@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carme.ai/blog/installing-jupyterhub-azure/</loc>
+    <loc>https://carme.ai/blog/installing-jupyterhub-azure-jupyter/</loc>
+    <lastmod>2018-07-16T13:50:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://carme.ai/blog/installing-jupyterhub-azure-cloudshell/</loc>
     <lastmod>2018-07-16T13:50:46+02:00</lastmod>
   </url>
   
@@ -35,13 +40,13 @@
   </url>
   
   <url>
-    <loc>https://carme.ai/tags/jupyterhub/</loc>
+    <loc>https://carme.ai/categories/jupyterhub/</loc>
     <lastmod>2018-07-16T13:50:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://carme.ai/categories/jupyterhub/</loc>
+    <loc>https://carme.ai/tags/jupyterhub/</loc>
     <lastmod>2018-07-16T13:50:46+02:00</lastmod>
     <priority>0</priority>
   </url>
