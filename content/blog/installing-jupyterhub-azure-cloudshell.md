@@ -5,6 +5,9 @@ tags = ["jupyterhub", "azure"]
 categories = ["jupyterhub"]
 +++
 
+# This tutorial is currently not fully working. It launches the Cluster but the installation of Jupyterhub is not working.
+Help solve the issue [here](https://github.com/CarmeLabs/packages/issues/1).
+
 This is a short tutorial on installing Jupyterhub on Azure using the Cloud Shell and the Carme package. This is convenient as you don't have to install anything (Azure CLI/Helm) locally.
 
 You must first log onto the Azure web portal and have an active subscription. Click on the button below to launch the cloud shell.
@@ -97,7 +100,7 @@ carme cmd az-cluster install_helm
 The `kubectl` command is the native way of controlling your cluster. Let's go ahead and verify that this works. The get node command will list out all of the servers and the kubernetes versions.
 
 ```
-kubectl get node
+kubectl cluster-info
 ```
 
 Helm version will show that helm installed both locally and on the cluster.  The versions also need to be the same.

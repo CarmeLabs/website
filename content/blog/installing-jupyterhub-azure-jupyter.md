@@ -6,6 +6,9 @@ categories = ["jupyterhub"]
 +++
 
 
+# This tutorial is currently not fully working. It launches the Cluster but the installation of Jupyterhub is not working.
+Help solve the issue [here](https://github.com/CarmeLabs/packages/issues/1).
+
 This is a short tutorial on installing Jupyterhub using a Jupyter notebook.  You must have Azure the Azure CLI, Helm, and Conda installed locally.
 
 See instructions for installing the [Azure CLI here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest).
