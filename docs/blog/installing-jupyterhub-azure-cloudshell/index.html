@@ -212,18 +212,14 @@ ls
 
 <p>The last command will install the cluster. This could take you up to 10 minutes to launch.</p>
 
-<h3 id="install-helm">Install Helm</h3>
-
-<p>The following command will obtain the associated configuration for the Kubernetes cluster, install helm, and then secure helm.  More details on all of the steps can be found on the [Zero to Jupyterhub website]().</p>
-
-<pre><code>carme cmd az-cluster install_helm
-</code></pre>
-
 <h3 id="verify-your-cluster">Verify your Cluster</h3>
 
 <p>The <code>kubectl</code> command is the native way of controlling your cluster. Let&rsquo;s go ahead and verify that this works. The get node command will list out all of the servers and the kubernetes versions.</p>
 
 <pre><code>kubectl cluster-info
+</code></pre>
+
+<pre><code>kubectl get nodes
 </code></pre>
 
 <p>Helm version will show that helm installed both locally and on the cluster.  The versions also need to be the same.</p>
