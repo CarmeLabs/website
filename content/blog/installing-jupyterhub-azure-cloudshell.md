@@ -1,5 +1,5 @@
 +++
-title = "Creating Jupyterhub on the Azure with Cloud Shell"
+title = "Creating Jupyterhub on Azure with Cloud Shell"
 date = "2018-07-16T13:50:46+02:00"
 tags = ["jupyterhub", "azure"]
 categories = ["jupyterhub"]

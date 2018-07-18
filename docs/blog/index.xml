@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Creating Jupyterhub on the Azure using a Jupyter Notebook</title>
+      <title>Creating Jupyterhub on Azure using a Jupyter Notebook</title>
       <link>https://carme.ai/blog/installing-jupyterhub-azure-jupyter/</link>
       <pubDate>Mon, 16 Jul 2018 13:50:46 +0200</pubDate>
       
@@ -24,7 +24,7 @@ wget https://raw.githubusercontent.com/CarmeLabs/carme/master/scripts/get/get_ca
     </item>
     
     <item>
-      <title>Creating Jupyterhub on the Azure with Cloud Shell</title>
+      <title>Creating Jupyterhub on Azure with Cloud Shell</title>
       <link>https://carme.ai/blog/installing-jupyterhub-azure-cloudshell/</link>
       <pubDate>Mon, 16 Jul 2018 13:50:46 +0200</pubDate>
       

@@ -1,5 +1,5 @@
 +++
-title = "Creating Jupyterhub on the Azure using a Jupyter Notebook"
+title = "Creating Jupyterhub on Azure using a Jupyter Notebook"
 date = "2018-07-16T13:50:46+02:00"
 tags = ["jupyterhub", "azure"]
 categories = ["jupyterhub"]
@@ -73,4 +73,4 @@ Or `jupyter notebook` if you prefer.
 The notebook for launching Jupyterhub is under:
 code/notebooks/az-cluster.ipynb
 
-GO THERE NOW!  The rest of this tutorial is in the notebook.  Just press play to continue down the process of installing. 
+GO THERE NOW!  The rest of this tutorial is in the notebook.  Just press play to continue down the process of installing.
