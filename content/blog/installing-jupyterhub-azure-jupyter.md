@@ -1,11 +1,9 @@
 +++
 title = "Creating Jupyterhub on Azure using a Jupyter Notebook"
-date = "2018-07-16T13:50:46+02:00"
+date = "2018-07-15T13:50:46+02:00"
 tags = ["jupyterhub", "azure"]
 categories = ["jupyterhub"]
 +++
-
-Help solve the issue [here](https://github.com/CarmeLabs/packages/issues/1).
 
 This is a short tutorial on installing Jupyterhub using a Jupyter notebook.  You must have Azure the Azure CLI, Helm, and Conda installed locally.
 
@@ -75,3 +73,5 @@ The notebook for launching Jupyterhub is under:
 code/notebooks/az-cluster.ipynb
 
 GO THERE NOW!  The rest of this tutorial is in the notebook.  Just press play to continue down the process of installing.
+
+More tutorials coming soon.  [Join the Slack channel](https://join.slack.com/t/carmelabs/shared_invite/enQtNDAxMDE2MjU0NzA5LTJmMGVlM2I5Zjc4Yzk2NzhjYTRlMWVhMTZlMTYzMGMyNmM0NzE1ZTMwZWFjZGUxNGRkMTc2ZjJjNTVlYThkMTQ) to stay up to date!

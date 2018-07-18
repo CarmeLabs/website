@@ -1,6 +1,6 @@
 +++
 title = "Creating Jupyterhub on Azure with Cloud Shell"
-date = "2018-07-16T13:50:46+02:00"
+date = "2018-07-18T13:50:46+02:00"
 tags = ["jupyterhub", "azure"]
 categories = ["jupyterhub"]
 +++
@@ -125,4 +125,11 @@ This second to last command will wait for 5 minutes for the public IP to show up
 
 The last command will indicate the IP address!
 
-More tutorials coming soon.  [Join the Slack channel](https://join.slack.com/t/carmelabs/shared_invite/enQtNDAxMDE2MjU0NzA5LTJmMGVlM2I5Zjc4Yzk2NzhjYTRlMWVhMTZlMTYzMGMyNmM0NzE1ZTMwZWFjZGUxNGRkMTc2ZjJjNTVlYThkMTQ) to stay up to date! 
+```
+EXTERNAL-IP
+23.96.31.87
+```
+
+You can see the JupyterHub here: [http://23.96.31.87/hub/login](http://23.96.31.87/hub/login)
+
+More tutorials coming soon.  [Join the Slack channel](https://join.slack.com/t/carmelabs/shared_invite/enQtNDAxMDE2MjU0NzA5LTJmMGVlM2I5Zjc4Yzk2NzhjYTRlMWVhMTZlMTYzMGMyNmM0NzE1ZTMwZWFjZGUxNGRkMTc2ZjJjNTVlYThkMTQ) to stay up to date!
