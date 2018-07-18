@@ -17,7 +17,7 @@ googleAnalytics = "UA-32817743-4"
     url = "/blog"
   [[menu.header]]
     weight = 4
-    name = "Join the Slack"
+    name = "Join Slack"
     url = "https://join.slack.com/t/carmelabs/shared_invite/enQtNDAxMDE2MjU0NzA5LTJmMGVlM2I5Zjc4Yzk2NzhjYTRlMWVhMTZlMTYzMGMyNmM0NzE1ZTMwZWFjZGUxNGRkMTc2ZjJjNTVlYThkMTQ"
   [[menu.header]]
     weight = 5
