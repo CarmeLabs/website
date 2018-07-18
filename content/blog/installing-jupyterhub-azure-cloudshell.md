@@ -5,9 +5,6 @@ tags = ["jupyterhub", "azure"]
 categories = ["jupyterhub"]
 +++
 
-# This tutorial is currently not fully working. It launches the Cluster but the installation of Jupyterhub is not working.
-Help solve the issue [here](https://github.com/CarmeLabs/packages/issues/1).
-
 This is a short tutorial on installing Jupyterhub on Azure using the Cloud Shell and the Carme package. This is convenient as you don't have to install anything (Azure CLI/Helm) locally.
 
 You must first log onto the Azure web portal and have an active subscription. Click on the button below to launch the cloud shell.
@@ -118,10 +115,14 @@ The `--yes` just doesn't ask for confirmation before running the command.
 carme cmd jupyterhub show_config --yes
 ```
 
-#WARNING - THIS PART OF THE TUTORIAL IS CURRENTLY NOT WORKING!
-
 JupyterHub requires us to generate some configuration.
 
 ```
 carme cmd jupyterhub install_all
 ```
+
+This second to last command will wait for 5 minutes for the public IP to show up.
+
+The last command will indicate the IP address!
+
+More tutorials coming soon.  [Join the Slack channel](https://join.slack.com/t/carmelabs/shared_invite/enQtNDAxMDE2MjU0NzA5LTJmMGVlM2I5Zjc4Yzk2NzhjYTRlMWVhMTZlMTYzMGMyNmM0NzE1ZTMwZWFjZGUxNGRkMTc2ZjJjNTVlYThkMTQ) to stay up to date! 
