@@ -1,6 +1,6 @@
 +++
 title = "Creating Jupyterhub on Google Cloud Platform (GCP)"
-date = "2018-07-15T13:51:46+02:00"
+date = "2018-10-24T13:51:46+02:00"
 tags = ["jupyterhub", "gcp"]
 categories = ["jupyterhub"]
 draft = false
@@ -10,7 +10,7 @@ This is a short tutorial on installing Jupyterhub on Kuberntes using the Cloud S
 
 ## Why JupyterHub on Kubernetes
 
-Let's say that you want to do a training session on Deep Learning for everyone here.  Well first we could spend 45 minutes getting everyones laptop setup to be able to be able to run the sample code.  Alternately, we could use cloud based computing with GCP, Kubernetes, Jupyterhub, and Carme. 
+Let's say that you want to do a training session on Deep Learning for everyone here.  Well first we could spend 45 minutes getting everyones laptop setup to be able to be able to run the sample code.  Alternately, we could use cloud based computing with GCP, Kubernetes, Jupyterhub, and Carme.
 
 
 ## Getting Started

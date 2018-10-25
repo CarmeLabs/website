@@ -6,10 +6,20 @@
     <description>Recent content in Jupyterhub on Carme.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jul 2018 13:50:46 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 24 Oct 2018 13:51:46 +0200</lastBuildDate>
     
 	<atom:link href="https://carme.ai/tags/jupyterhub/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating Jupyterhub on Google Cloud Platform (GCP)</title>
+      <link>https://carme.ai/blog/installing-jupyterhub-gcp/</link>
+      <pubDate>Wed, 24 Oct 2018 13:51:46 +0200</pubDate>
+      
+      <guid>https://carme.ai/blog/installing-jupyterhub-gcp/</guid>
+      <description>This is a short tutorial on installing Jupyterhub on Kuberntes using the Cloud Shell and the Carme package. This is convenient as you don&amp;rsquo;t have to install anything (Google CLI/Helm) locally.
+Why JupyterHub on Kubernetes Let&amp;rsquo;s say that you want to do a training session on Deep Learning for everyone here. Well first we could spend 45 minutes getting everyones laptop setup to be able to be able to run the sample code.</description>
+    </item>
     
     <item>
       <title>Creating Jupyterhub on Azure with Cloud Shell</title>
@@ -22,16 +32,6 @@ You must first log onto the Azure web portal and have an active subscription. Cl
 
 We will start by installing Carme on the Azure Shell.
 wget https://raw.githubusercontent.com/CarmeLabs/carme/master/scripts/get/get_carme.sh source get_carme.</description>
-    </item>
-    
-    <item>
-      <title>Creating Jupyterhub on Google Cloud Platform (GCP)</title>
-      <link>https://carme.ai/blog/installing-jupyterhub-gcp/</link>
-      <pubDate>Sun, 15 Jul 2018 13:51:46 +0200</pubDate>
-      
-      <guid>https://carme.ai/blog/installing-jupyterhub-gcp/</guid>
-      <description>This is a short tutorial on installing Jupyterhub on Kuberntes using the Cloud Shell and the Carme package. This is convenient as you don&amp;rsquo;t have to install anything (Google CLI/Helm) locally.
-Why JupyterHub on Kubernetes Let&amp;rsquo;s say that you want to do a training session on Deep Learning for everyone here. Well first we could spend 45 minutes getting everyones laptop setup to be able to be able to run the sample code.</description>
     </item>
     
     <item>

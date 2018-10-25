@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://carme.ai/blog/installing-jupyterhub-azure-cloudshell/</loc>
-    <lastmod>2018-07-18T13:50:46+02:00</lastmod>
+    <loc>https://carme.ai/blog/installing-jupyterhub-gcp/</loc>
+    <lastmod>2018-10-24T13:51:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://carme.ai/blog/installing-jupyterhub-gcp/</loc>
-    <lastmod>2018-07-15T13:51:46+02:00</lastmod>
+    <loc>https://carme.ai/blog/installing-jupyterhub-azure-cloudshell/</loc>
+    <lastmod>2018-07-18T13:50:46+02:00</lastmod>
   </url>
   
   <url>
@@ -25,13 +25,13 @@
   
   <url>
     <loc>https://carme.ai/blog/</loc>
-    <lastmod>2018-07-18T13:50:46+02:00</lastmod>
+    <lastmod>2018-10-24T13:51:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carme.ai/</loc>
-    <lastmod>2018-07-18T13:50:46+02:00</lastmod>
+    <lastmod>2018-10-24T13:51:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -46,19 +46,19 @@
   
   <url>
     <loc>https://carme.ai/tags/gcp/</loc>
-    <lastmod>2018-07-15T13:51:46+02:00</lastmod>
+    <lastmod>2018-10-24T13:51:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carme.ai/categories/jupyterhub/</loc>
-    <lastmod>2018-07-18T13:50:46+02:00</lastmod>
+    <lastmod>2018-10-24T13:51:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://carme.ai/tags/jupyterhub/</loc>
-    <lastmod>2018-07-18T13:50:46+02:00</lastmod>
+    <lastmod>2018-10-24T13:51:46+02:00</lastmod>
     <priority>0</priority>
   </url>
   

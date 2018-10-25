@@ -6,7 +6,7 @@
     <description>Recent content in Gcp on Carme.ai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Jul 2018 13:51:46 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 24 Oct 2018 13:51:46 +0200</lastBuildDate>
     
 	<atom:link href="https://carme.ai/tags/gcp/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Creating Jupyterhub on Google Cloud Platform (GCP)</title>
       <link>https://carme.ai/blog/installing-jupyterhub-gcp/</link>
-      <pubDate>Sun, 15 Jul 2018 13:51:46 +0200</pubDate>
+      <pubDate>Wed, 24 Oct 2018 13:51:46 +0200</pubDate>
       
       <guid>https://carme.ai/blog/installing-jupyterhub-gcp/</guid>
       <description>This is a short tutorial on installing Jupyterhub on Kuberntes using the Cloud Shell and the Carme package. This is convenient as you don&amp;rsquo;t have to install anything (Google CLI/Helm) locally.
