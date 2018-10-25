@@ -201,7 +201,7 @@ ls
 
 <p>Carme includes ways of templating bash commands so that the required commands are combined where necessary with the values for the config file.  This makes it easy to interactively enter a number of different commands.</p>
 
-<pre><code>carme cmd az-cluster create_all
+<pre><code>carme cmd az-cluster create_all --yes
 </code></pre>
 
 <p>This will ask you to confirm a number of commands used to launch the Cluster.  Press <code>y</code> to confirm each one.</p>
@@ -238,18 +238,23 @@ ls
 
 <p>JupyterHub requires us to generate some configuration.</p>
 
-<pre><code>carme cmd jupyterhub install_all
+<pre><code>carme cmd jupyterhub install_all --yes
 </code></pre>
+
+<p>If you would like to confirm each command before running it, you should just skip the <code>--yes</code> command.</p>
 
 <p>This second to last command will wait for 5 minutes for the public IP to show up.</p>
 
 <p>The last command will indicate the IP address!</p>
 
 <pre><code>EXTERNAL-IP
-23.96.31.87
+xx.xx.xx.xx
 </code></pre>
 
-<p>You can see the JupyterHub here: <a href="http://23.96.31.87/hub/login">http://23.96.31.87/hub/login</a></p>
+<p>OK&hellip;.let us go ahead and clean everything up.</p>
+
+<pre><code>carme cmd az-cluster delete_group
+</code></pre>
 
 <p>More tutorials coming soon.  <a href="https://join.slack.com/t/carmelabs/shared_invite/enQtNDAxMDE2MjU0NzA5LTJmMGVlM2I5Zjc4Yzk2NzhjYTRlMWVhMTZlMTYzMGMyNmM0NzE1ZTMwZWFjZGUxNGRkMTc2ZjJjNTVlYThkMTQ">Join the Slack channel</a> to stay up to date!</p>
 </p>

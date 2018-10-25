@@ -79,7 +79,7 @@ carme cmd az-cluster show_config --yes
 Carme includes ways of templating bash commands so that the required commands are combined where necessary with the values for the config file.  This makes it easy to interactively enter a number of different commands.
 
 ```
-carme cmd az-cluster create_all
+carme cmd az-cluster create_all --yes
 ```
 
 This will ask you to confirm a number of commands used to launch the Cluster.  Press `y` to confirm each one.
@@ -118,8 +118,10 @@ carme cmd jupyterhub show_config --yes
 JupyterHub requires us to generate some configuration.
 
 ```
-carme cmd jupyterhub install_all
+carme cmd jupyterhub install_all --yes
 ```
+
+If you would like to confirm each command before running it, you should just skip the `--yes` command.
 
 This second to last command will wait for 5 minutes for the public IP to show up.
 
@@ -127,9 +129,11 @@ The last command will indicate the IP address!
 
 ```
 EXTERNAL-IP
-23.96.31.87
+xx.xx.xx.xx
 ```
 
-You can see the JupyterHub here: [http://23.96.31.87/hub/login](http://23.96.31.87/hub/login)
-
+OK....let us go ahead and clean everything up.
+```
+carme cmd az-cluster delete_group
+```
 More tutorials coming soon.  [Join the Slack channel](https://join.slack.com/t/carmelabs/shared_invite/enQtNDAxMDE2MjU0NzA5LTJmMGVlM2I5Zjc4Yzk2NzhjYTRlMWVhMTZlMTYzMGMyNmM0NzE1ZTMwZWFjZGUxNGRkMTc2ZjJjNTVlYThkMTQ) to stay up to date!

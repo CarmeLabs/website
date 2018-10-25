@@ -15,14 +15,11 @@ You must first log onto the GCP web portal and have an active subscription. Clic
 We will start by installing Carme on the Azure Shell.
 
 ```
-wget https://raw.githubusercontent.com/CarmeLabs/carme/master/scripts/get/get_carme.sh
-source get_carme.sh
+wget https://raw.githubusercontent.com/CarmeLabs/carme/master/scripts/get/get_carme_gcloud.sh
+bash get_carme.sh
 ```
 
-This will activate the virtual environment with Carme installed. If in the future you log in again this will not be installed but not active.  To activate the environment, just use this easy script.
-```
-source activate.sh
-```
+
 
 To verify that Carme is installed and working type `carme --help`. This will give an overview of the carme package.
 
@@ -72,8 +69,19 @@ Before we can launch the cluster, let's go ahead and look at the configuration a
 The `--yes` just doesn't ask for confirmation before running the command.
 
 ```
-carme cmd gcp-cluster show_config --yes
+sudo carme cmd gcp-cluster show_config --yes
 ```
+### Update your Email
+**You must now update your email in the file:
+```
+sudo nano ./config/gcp-cluster.yaml
+```
+
+### Enable the Kubernetes API
+In order to be able to launch Kubernetes you will have to enable the Kubernetes API.
+
+Click the link
+[https://console.cloud.google.com/apis/library/container.googleapis.com?q=Kubernetes%20Engine%20API&id=1def4230-f361-4931-b386-576c62b90799](https://console.cloud.google.com/apis/library/container.googleapis.com?q=Kubernetes%20Engine%20API&id=1def4230-f361-4931-b386-576c62b90799)
 
 ### Lauch the Cluster
 Carme includes ways of templating bash commands so that the required commands are combined where necessary with the values for the config file.  This makes it easy to interactively enter a number of different commands.
@@ -86,12 +94,6 @@ This will ask you to confirm a number of commands used to launch the Cluster.  P
 
 The last command will install the cluster. This could take you up to 10 minutes to launch.
 
-### Install Helm
-The following command will obtain the associated configuration for the Kubernetes cluster, install helm, and then secure helm.  More details on all of the steps can be found on the [Zero to Jupyterhub website]().
-
-```
-carme cmd gcp-cluster install_helm
-```
 
 ### Verify your Cluster
 The `kubectl` command is the native way of controlling your cluster. Let's go ahead and verify that this works. The get node command will list out all of the servers and the kubernetes versions.
