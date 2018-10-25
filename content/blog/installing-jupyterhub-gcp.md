@@ -3,11 +3,17 @@ title = "Creating Jupyterhub on Google Cloud Platform (GCP)"
 date = "2018-07-15T13:51:46+02:00"
 tags = ["jupyterhub", "gcp"]
 categories = ["jupyterhub"]
-draft = true
+draft = false
 +++
 
-This is a short tutorial on installing Jupyterhub on using the Cloud Shell and the Carme package. This is convenient as you don't have to install anything (Google CLI/Helm) locally.
+This is a short tutorial on installing Jupyterhub on Kuberntes using the Cloud Shell and the Carme package. This is convenient as you don't have to install anything (Google CLI/Helm) locally.
 
+## Why JupyterHub on Kubernetes
+
+Let's say that you want to do a training session on Deep Learning for everyone here.  Well first we could spend 45 minutes getting everyones laptop setup to be able to be able to run the sample code.  Alternately, we could use cloud based computing with GCP, Kubernetes, Jupyterhub, and Carme. 
+
+
+## Getting Started
 You must first log onto the GCP web portal and have an active subscription. Click on the button below to launch the cloud shell.
 
 
@@ -72,7 +78,7 @@ The `--yes` just doesn't ask for confirmation before running the command.
 sudo carme cmd gcp-cluster show_config --yes
 ```
 ### Update your Email
-**You must now update your email in the file:
+You must now update your email in the file:
 ```
 sudo nano ./config/gcp-cluster.yaml
 ```
@@ -102,6 +108,12 @@ The `kubectl` command is the native way of controlling your cluster. Let's go ah
 kubectl get node
 ```
 
+
+Helm version will show that helm installed both locally and on the cluster.  The versions also need to be the same.
+```
+helm init
+```
+
 Helm version will show that helm installed both locally and on the cluster.  The versions also need to be the same.
 ```
 helm version
@@ -120,6 +132,12 @@ carme cmd jupyterhub show_config --yes
 ```
 
 JupyterHub requires us to generate some configuration.
+
+```
+carme cmd jupyterhub install_all
+```
+
+That is it! This should return a URL.
 
 ```
 carme cmd jupyterhub install_all

@@ -101,7 +101,7 @@ ga('send', 'pageview');
               
                 <li><a href="/blog/">Tutorials</a></li>
               
-                <li><a href="https://github.com/CarmeLabs/carme/">Star on Github</a></li>
+                <li><a href="https://join.slack.com/t/carmelabs/shared_invite/enQtNDAxMDE2MjU0NzA5LTJmMGVlM2I5Zjc4Yzk2NzhjYTRlMWVhMTZlMTYzMGMyNmM0NzE1ZTMwZWFjZGUxNGRkMTc2ZjJjNTVlYThkMTQ/">Join Slack</a></li>
               
                 <li><a href="/contact/">Get the Paper</a></li>
               
@@ -129,21 +129,20 @@ ga('send', 'pageview');
 	            <hr />
 	            <p>
 
-<p>This is a short tutorial on installing Jupyterhub on using the Cloud Shell and the Carme package. This is convenient as you don&rsquo;t have to install anything (Google CLI/Helm) locally.</p>
+<p>This is a short tutorial on installing Jupyterhub on Kuberntes using the Cloud Shell and the Carme package. This is convenient as you don&rsquo;t have to install anything (Google CLI/Helm) locally.</p>
+
+<h2 id="why-jupyterhub-on-kubernetes">Why JupyterHub on Kubernetes</h2>
+
+<p>Let&rsquo;s say that you want to do a training session on Deep Learning for everyone here.  Well first we could spend 45 minutes getting everyones laptop setup to be able to be able to run the sample code.  Alternately, we could use cloud based computing with GCP, Kubernetes, Jupyterhub, and Carme.</p>
+
+<h2 id="getting-started">Getting Started</h2>
 
 <p>You must first log onto the GCP web portal and have an active subscription. Click on the button below to launch the cloud shell.</p>
 
-<p><a style="cursor:pointer" onclick='javascript:window.open("https://console.cloud.google.com/cloudshell/", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,menubar=no,location=no,status=no")'><image src="http://gstatic.com/cloudssh/images/open-btn.svg" /></a></p>
-
 <p>We will start by installing Carme on the Azure Shell.</p>
 
-<pre><code>wget https://raw.githubusercontent.com/CarmeLabs/carme/master/scripts/get/get_carme.sh
-source get_carme.sh
-</code></pre>
-
-<p>This will activate the virtual environment with Carme installed. If in the future you log in again this will not be installed but not active.  To activate the environment, just use this easy script.</p>
-
-<pre><code>source activate.sh
+<pre><code>wget https://raw.githubusercontent.com/CarmeLabs/carme/master/scripts/get/get_carme_gcloud.sh
+bash get_carme.sh
 </code></pre>
 
 <p>To verify that Carme is installed and working type <code>carme --help</code>. This will give an overview of the carme package.</p>
@@ -195,8 +194,22 @@ ls
 
 <p>The <code>--yes</code> just doesn&rsquo;t ask for confirmation before running the command.</p>
 
-<pre><code>carme cmd gcp-cluster show_config --yes
+<pre><code>sudo carme cmd gcp-cluster show_config --yes
 </code></pre>
+
+<h3 id="update-your-email">Update your Email</h3>
+
+<p>You must now update your email in the file:</p>
+
+<pre><code>sudo nano ./config/gcp-cluster.yaml
+</code></pre>
+
+<h3 id="enable-the-kubernetes-api">Enable the Kubernetes API</h3>
+
+<p>In order to be able to launch Kubernetes you will have to enable the Kubernetes API.</p>
+
+<p>Click the link
+<a href="https://console.cloud.google.com/apis/library/container.googleapis.com?q=Kubernetes%20Engine%20API&amp;id=1def4230-f361-4931-b386-576c62b90799">https://console.cloud.google.com/apis/library/container.googleapis.com?q=Kubernetes%20Engine%20API&amp;id=1def4230-f361-4931-b386-576c62b90799</a></p>
 
 <h3 id="lauch-the-cluster">Lauch the Cluster</h3>
 
@@ -209,18 +222,16 @@ ls
 
 <p>The last command will install the cluster. This could take you up to 10 minutes to launch.</p>
 
-<h3 id="install-helm">Install Helm</h3>
-
-<p>The following command will obtain the associated configuration for the Kubernetes cluster, install helm, and then secure helm.  More details on all of the steps can be found on the [Zero to Jupyterhub website]().</p>
-
-<pre><code>carme cmd gcp-cluster install_helm
-</code></pre>
-
 <h3 id="verify-your-cluster">Verify your Cluster</h3>
 
 <p>The <code>kubectl</code> command is the native way of controlling your cluster. Let&rsquo;s go ahead and verify that this works. The get node command will list out all of the servers and the kubernetes versions.</p>
 
 <pre><code>kubectl get node
+</code></pre>
+
+<p>Helm version will show that helm installed both locally and on the cluster.  The versions also need to be the same.</p>
+
+<pre><code>helm init
 </code></pre>
 
 <p>Helm version will show that helm installed both locally and on the cluster.  The versions also need to be the same.</p>
@@ -242,6 +253,11 @@ ls
 </code></pre>
 
 <p>JupyterHub requires us to generate some configuration.</p>
+
+<pre><code>carme cmd jupyterhub install_all
+</code></pre>
+
+<p>That is it! This should return a URL.</p>
 
 <pre><code>carme cmd jupyterhub install_all
 </code></pre>
