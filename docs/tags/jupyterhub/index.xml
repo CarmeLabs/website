@@ -18,7 +18,7 @@
       
       <guid>https://carme.ai/blog/installing-jupyterhub-gcp/</guid>
       <description>This is a short tutorial on installing Jupyterhub on Kuberntes using the Cloud Shell and the Carme package. This is convenient as you don&amp;rsquo;t have to install anything (Google CLI/Helm) locally.
-{{% button href=&amp;ldquo;https://console.cloud.google.com/cloudshell/&amp;quot; %}}Google Cloud Shell{{% /button %}}
+
 Why JupyterHub on Kubernetes Let&amp;rsquo;s say that you want to do a training session on Deep Learning for everyone here. Well first we could spend 45 minutes getting everyones laptop setup to be able to be able to run the sample code.</description>
     </item>
     
