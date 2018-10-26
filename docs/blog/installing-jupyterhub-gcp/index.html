@@ -142,7 +142,7 @@ ga('send', 'pageview');
 <p>We will start by installing Carme on the Azure Shell.</p>
 
 <pre><code>wget https://raw.githubusercontent.com/CarmeLabs/carme/master/scripts/get/get_carme_gcloud.sh
-bash get_carme.sh
+bash get_carme_gcloud.sh
 </code></pre>
 
 <p>To verify that Carme is installed and working type <code>carme --help</code>. This will give an overview of the carme package.</p>
@@ -194,14 +194,14 @@ ls
 
 <p>The <code>--yes</code> just doesn&rsquo;t ask for confirmation before running the command.</p>
 
-<pre><code>sudo carme cmd gcp-cluster show_config --yes
+<pre><code>carme cmd gcp-cluster show_config --yes
 </code></pre>
 
 <h3 id="update-your-email">Update your Email</h3>
 
 <p>You must now update your email in the file:</p>
 
-<pre><code>sudo nano ./config/gcp-cluster.yaml
+<pre><code>nano ./config/gcp-cluster.yaml
 </code></pre>
 
 <h3 id="enable-the-kubernetes-api">Enable the Kubernetes API</h3>

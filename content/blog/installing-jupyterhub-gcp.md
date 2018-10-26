@@ -22,7 +22,7 @@ We will start by installing Carme on the Azure Shell.
 
 ```
 wget https://raw.githubusercontent.com/CarmeLabs/carme/master/scripts/get/get_carme_gcloud.sh
-bash get_carme.sh
+bash get_carme_gcloud.sh
 ```
 
 
@@ -75,12 +75,12 @@ Before we can launch the cluster, let's go ahead and look at the configuration a
 The `--yes` just doesn't ask for confirmation before running the command.
 
 ```
-sudo carme cmd gcp-cluster show_config --yes
+carme cmd gcp-cluster show_config --yes
 ```
 ### Update your Email
 You must now update your email in the file:
 ```
-sudo nano ./config/gcp-cluster.yaml
+nano ./config/gcp-cluster.yaml
 ```
 
 ### Enable the Kubernetes API
