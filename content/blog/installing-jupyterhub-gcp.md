@@ -8,7 +8,8 @@ draft = false
 
 This is a short tutorial on installing Jupyterhub on Kuberntes using the Cloud Shell and the Carme package. This is convenient as you don't have to install anything (Google CLI/Helm) locally.
 
-<a href="https://console.cloud.google.com/cloudshell/open"><img src="https://gstatic.com/cloudssh/images/open-btn.png" alt="Open in Cloud Shell"></a>
+{{< button href="https://console.cloud.google.com/cloudshell/" >}} Google Cloud Shell {{< /button >}}
+
 
 ## Why JupyterHub on Kubernetes
 
