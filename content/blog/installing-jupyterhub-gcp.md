@@ -142,3 +142,57 @@ That is it! This should return a URL.
 ```
 carme cmd jupyterhub install_all
 ```
+
+### Configuring JuptyerHub
+There are a number of different configurations that you can make to JupyterHub. In particular, adjusting to the following enables a number of useful features including:
+- SSL
+- Github Authentication
+- A customized Docker container
+- A common repository which is cloned for all users
+- JupyterLab by default
+
+Of course the `secretToken`, `clientSecret`, and `clientId` fields are obscured.
+
+```
+proxy:
+  secretToken: "*****************************"
+  https:
+    hosts:
+    - lab.analyticsdojo.com
+    letsencrypt:
+      contactEmail: kuruzj@rpi.edu
+auth:
+  type: github
+  github:
+    clientId: "**********************"
+    clientSecret: "***********************************"
+    callbackUrl: "https://lab.analyticsdojo.com/hub/oauth_callback"
+  admin:
+    users:
+      - jkuruzovich
+      - jiangl4
+singleuser:
+  image:
+    name: carmelabs/jupyter-cpu-r
+    tag: c56019b
+  defaultUrl: "/lab"
+  lifecycleHooks:
+    postStart:
+      exec:
+        command: ["gitpuller", "https://github.com/rpi-techfundamentals/fall2018-materials", "master", "materials-fa"]
+hub:
+  extraConfig: |-
+    c.Spawner.cmd = ['jupyter-labhub']
+```
+
+After changing your configuration file you would just need to upgrade JupyterHub using hte following command.
+
+```
+carme cmd jupyterhub upgrade
+```
+
+
+## Deep Learning with Pytorch
+We will have some waiting time between using our cluster. Let's use that time to go over some Deep Learning with Pytorch.
+
+[Click this link to try the deep learning tutorial.](http://lab.analyticsdojo.com/hub/user-redirect/git-pull?repo=https://github.com/CarmeLabs/GCP-tutorial&branch=master&supPath=GCP-tutorial&app=lab)

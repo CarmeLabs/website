@@ -261,6 +261,59 @@ ls
 
 <pre><code>carme cmd jupyterhub install_all
 </code></pre>
+
+<h3 id="configuring-juptyerhub">Configuring JuptyerHub</h3>
+
+<p>There are a number of different configurations that you can make to JupyterHub. In particular, adjusting to the following enables a number of useful features including:
+- SSL
+- Github Authentication
+- A customized Docker container
+- A common repository which is cloned for all users
+- JupyterLab by default</p>
+
+<p>Of course the <code>secretToken</code>, <code>clientSecret</code>, and <code>clientId</code> fields are obscured.</p>
+
+<pre><code>proxy:
+  secretToken: &quot;*****************************&quot;
+  https:
+    hosts:
+    - lab.analyticsdojo.com
+    letsencrypt:
+      contactEmail: kuruzj@rpi.edu
+auth:
+  type: github
+  github:
+    clientId: &quot;**********************&quot;
+    clientSecret: &quot;***********************************&quot;
+    callbackUrl: &quot;https://lab.analyticsdojo.com/hub/oauth_callback&quot;
+  admin:
+    users:
+      - jkuruzovich
+      - jiangl4
+singleuser:
+  image:
+    name: carmelabs/jupyter-cpu-r
+    tag: c56019b
+  defaultUrl: &quot;/lab&quot;
+  lifecycleHooks:
+    postStart:
+      exec:
+        command: [&quot;gitpuller&quot;, &quot;https://github.com/rpi-techfundamentals/fall2018-materials&quot;, &quot;master&quot;, &quot;materials-fa&quot;]
+hub:
+  extraConfig: |-
+    c.Spawner.cmd = ['jupyter-labhub']
+</code></pre>
+
+<p>After changing your configuration file you would just need to upgrade JupyterHub using hte following command.</p>
+
+<pre><code>carme cmd jupyterhub upgrade
+</code></pre>
+
+<h2 id="deep-learning-with-pytorch">Deep Learning with Pytorch</h2>
+
+<p>We will have some waiting time between using our cluster. Let&rsquo;s use that time to go over some Deep Learning with Pytorch.</p>
+
+<p><a href="http://lab.analyticsdojo.com/hub/user-redirect/git-pull?repo=https://github.com/CarmeLabs/GCP-tutorial&amp;branch=master&amp;supPath=GCP-tutorial&amp;app=lab">Click this link to try the deep learning tutorial.</a></p>
 </p>
 	          </div>
 	        </div>
