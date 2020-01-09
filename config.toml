@@ -58,14 +58,14 @@ googleAnalytics = "UA-32817743-4"
 
   [params.slider]
     enable = true
-    title = "The Framework for Data Artisans"
-    subtitle = "Jupyter and Container centric data science workflows for building AI applications. <br/>"
+    title = "The Jupyter Framework"
+    subtitle = "Jupyter centric tools for teaching machine learning. <br/>"
 
   [params.wrapper]
     enable = true
     title = "About Carme"
-    italic = "Why does AI need a framework?"
-    paragraph = "Frameworks have long been the friend of the web developers, increasing productivity by easing processes of getting started, building, and deploying applications. Loosely modeled after Laravel, Carme is designed to help data scientists to create and deploy data applications."
+    italic = "What does Carme do?"
+    paragraph = "Frameworks have long been the friend of the web developers, increasing productivity by easing processes of getting started, building, and deploying applications. Loosely modeled after Laravel, Carme is designed to help develop and deploy data science classes."
 
   [params.blog]
     enable = true
@@ -74,8 +74,8 @@ googleAnalytics = "UA-32817743-4"
 
   [params.feature]
     enable = true
-    title = "Like using Jupyter?"
-    content = "Carme helps you to use Jupter. Just like you use the jupyter notebook and jupyter lab commands to launch jupyter on your pc, use carme jupyter and carme lab to launch Jupyter in a container. Containerizing jupyter makes it easier to share and scale your analyses. "
+    title = "Need an Autograder?"
+    content = "The carme project can help."
     [params.feature.button]
       caption = "View Documentation"
       url = "http://docs.carme.ai"
